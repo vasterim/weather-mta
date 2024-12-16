@@ -1,0 +1,8 @@
+<meta>
+    <info author="Vaster" version="1.0.0" description="Türkiye'nin şehir bazlı hava durumu uygulaması" />
+    <script src="server/cities.lua" type="server" />
+    <script src="server/weather_api.lua" type="server" />
+    <script src="server/main.lua" type="server" />
+    <export function="findClosestCity" />
+    <export function="fetchWeather" />
+</meta>
